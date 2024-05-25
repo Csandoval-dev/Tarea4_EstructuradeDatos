@@ -1,0 +1,83 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5; /* Gris muy claro */
+  color: #333; /* Texto oscuro */
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+/* Contenedor principal de la aplicación */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Tamaño completo de la ventana */
+}
+
+/* Estilos adicionales (puedes añadir más según sea necesario) */
+.container {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.status-container {
+  margin-bottom: 20px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  color: #333; /* Texto oscuro */
+}
+
+.modal-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Azul brillante */
+  color: #fff; /* Texto blanco */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
